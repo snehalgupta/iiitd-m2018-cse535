@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         QuizQuestionsFragment frag = new QuizQuestionsFragment();
         fragmentTransaction.add(R.id.fragment_container,frag);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }

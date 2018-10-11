@@ -73,7 +73,7 @@ public class QuizQuestionsAdapter extends RecyclerView.Adapter<QuizQuestionsAdap
     @Override
     public void onBindViewHolder(ViewHolder holder,int position){
         holder.ques = ques_arr.get(position);
-        holder.ques_number.setText(holder.ques.ques_desc);
+        holder.ques_number.setText("Question "+holder.ques.ques_no);
     }
 
     @Override
