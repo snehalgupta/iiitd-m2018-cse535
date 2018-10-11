@@ -9,6 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+// Reference link for questions: http://www.placementquestion.com/category/computer_fundamentals/true_false_choice/2
+//https://www.thatquiz.org/tq/previewtest?1/U/E/R/WKEB1364403372
+
 public class Database_Helper extends SQLiteOpenHelper implements Serializable {
 
     Context context;

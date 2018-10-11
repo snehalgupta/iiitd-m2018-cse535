@@ -39,6 +39,8 @@ import java.util.ArrayList;
 
 //import static android.support.v4.content.ContextCompat.getSystemService;
 
+// reference link for uploading task: https://stackoverflow.com/questions/25398200/uploading-file-in-php-server-from-android-device
+
 public class QuizQuestionsFragment extends Fragment implements QuizQuestionsAdapter.onItemClickListener{
 
     private RecyclerView Quiz_recycler;
