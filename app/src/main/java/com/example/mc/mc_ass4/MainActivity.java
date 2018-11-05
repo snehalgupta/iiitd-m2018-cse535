@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         gyroscope = sensor_manager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
         orientation = sensor_manager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
         location_manager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        db_helper = new Database_Helper(getApplicationContext());
+        db_helper = new Database_Helper(this);
         textView = (TextView)findViewById(R.id.textView);
         textView2 = (TextView) findViewById(R.id.textView2);
         textView3 = (TextView) findViewById(R.id.textView3);

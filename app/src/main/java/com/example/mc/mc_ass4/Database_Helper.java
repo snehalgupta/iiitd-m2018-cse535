@@ -17,7 +17,7 @@ public class Database_Helper extends SQLiteOpenHelper{
     public static final String TABLE_NAME_4 = "Ori_Table";
     public static final String TABLE_NAME_5 = "Pro_Table";
     public static final String column_0 = "Timestamp";
-    public static final String column_1 = "S.no";
+    public static final String column_1 = "Serial_no";
     public static final String column_2 = "sensor_value_1";
     public static final String column_3 = "sensor_value_2";
     public static final String column_4 = "sensor_value_3";
